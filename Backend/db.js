@@ -1,6 +1,5 @@
 const mongoose=require('mongoose');
-const mongoURI="mongodb+srv://sahilsaif2002:yAdvv24DY6PCQ2SM@cluster0.higvabx.mongodb.net/test"
-
+const mongoURI="mongodb+srv://sahilsaif2002:yAdvv24DY6PCQ2SM@cluster0.higvabx.mongodb.net/?retryWrites=true&w=majority"
 const connectToMongo=()=>{
     mongoose.connect(mongoURI)
 }

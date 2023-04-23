@@ -12,7 +12,7 @@ export default function AppState(props) {
   const [inProgressTodos, setinProgressTodos] = useState([])
   const [doneTodos, setdoneTodos] = useState([])
   let navigate = useNavigate()
-  let host = "http://localhost:5000/api"
+  let host = "https://todo-mern-stack-nine.vercel.app/api"
 
   useEffect(() => {
     getTodos()
